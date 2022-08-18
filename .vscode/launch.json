@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TypeCasting",
+            "request": "launch",
+            "mainClass": "TypeCasting",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSortDemo",
+            "request": "launch",
+            "mainClass": "QuickSortDemo",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch TreeMapDemo",
+            "request": "launch",
+            "mainClass": "TreeMapDemo",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch DateDemo",
+            "request": "launch",
+            "mainClass": "DateDemo",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld"
+        }
+    ]
+}
