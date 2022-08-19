@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ReadXml",
+            "request": "launch",
+            "mainClass": "ReadXml"
+        },
+        {
+            "type": "java",
             "name": "Launch ObjectArray",
             "request": "launch",
             "mainClass": "ObjectArray",
