@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <title>React状态机</title>
+
+ <script type="text/javascript" src="js/react.min.js" ></script>
+
+ <script type="text/javascript" src="js/react-dom.min.js" ></script>
+
+ <script type="text/javascript" src="js/browser.min.js" ></script>
+
+  </head>
+
+  <body>
+
+    <p id="example"></p>
+
+    <script type="text/babel">
+
+      var BtnButton = React.createClass({
+
+        getInitialState: function() {
+
+          return {count: 0};
+
+        },
+
+        handleClick: function(event) {
+
+          this.setState({count:this.state.count+1});
+
+        },
+
+        render: function() {
+
+          var text =this.state.count ;
+
+          return (
+
+            <p onClick={this.handleClick}>
+
+              获取点击的次数<br />
+
+                 <span>{text}</span>
+
+            </p> 
+
+          );
+
+        }
+
+      });
+
+      ReactDOM.render(
+
+        <BtnButton />,
+
+        document.getElementById('example')
+
+      );
+
+    </script>
+
+  </body>
+
+</html>
